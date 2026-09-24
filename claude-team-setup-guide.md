@@ -97,7 +97,7 @@ Claude Code is a version of Claude that runs inside the **Terminal**, a built-in
 - The Terminal is a window where you type a command and press **Return** to run it.
 - The line where you type is called the **prompt**. It usually ends with a `%` symbol and looks something like `yourname@Your-MacBook ~ %`.
 - **You don't type the `%`.** Only type (or paste) the command itself.
-- **Copying and pasting is the safest way to enter commands.** Select the command in this guide, press **⌘ + C** to copy, click inside the Terminal window, and press **⌘ + V** to paste. Then press **Return**.
+- Select the command in this guide, press **⌘ + C** to copy, click inside the Terminal window, and press **⌘ + V** to paste. Then press **Return**.
 - When you type your Mac password in the Terminal, **nothing will appear on screen**, not even dots. That's normal. Type it and press Return.
 - When a command is finished, a fresh prompt (ending in `%`) appears, ready for the next command.
 
