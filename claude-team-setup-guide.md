@@ -39,16 +39,14 @@ On the sign-in page, use **single sign-on (SSO)**: enter your work email and you
 
 > **Tip:** Always use your work email. If you sign in with a personal email, you'll end up in a separate personal account instead of your team's workspace.
 
-### Step 1.3 — Confirm you're in the team workspace
+### Step 1.3 — Turn on multi-factor authentication (MFA)
+
+You'll be prompted to set up MFA as part of signing in with SSO.
+
+### Step 1.4 — Confirm you're in the team workspace
 
 1. Once you're signed in, click your name or initials in the bottom-left corner of the screen.
 2. You should see your organization's name. If you see more than one account listed (for example, a personal one), select your team organization.
-
-### Step 1.4 — Turn on multi-factor authentication (MFA)
-
-MFA means that signing in requires something you know (your password) **plus** something you have (your phone). For Claude, your MFA protection comes from the account you sign in *with*.
-
-Your company's IT team controls MFA for SSO logins. In most organizations it's already required, and you'll have been asked for a code or a phone approval when you signed in. If you weren't asked for a second step, contact IT and ask them to confirm MFA is turned on for your account.
 
 ### ✅ Section 1 checkpoint
 
@@ -70,7 +68,7 @@ The desktop app gives you Claude in its own window, so you don't need to keep a 
 
 ### Step 2.2 — Install the app
 
-1. Open **Finder** (the blue smiley-face icon in your Dock), then click **Downloads** in the left sidebar.
+1. Open **Finder**, then click **Downloads** in the left sidebar.
 2. Double-click the Claude `.dmg` file you just downloaded. A small window will open showing the Claude icon and an **Applications** folder.
 3. **Drag the Claude icon onto the Applications folder.** This copies the app onto your Mac.
 4. Close that small window. In Finder's sidebar you'll see a Claude item with an eject symbol (⏏) next to it. Click the eject symbol to tidy up.
@@ -92,7 +90,7 @@ You're done with this section when the Claude app opens from your Applications f
 
 ## Section 3: Run Claude Code in the Mac Terminal
 
-Claude Code is a version of Claude that runs inside the **Terminal**, a built-in Mac app where you type instructions instead of clicking buttons. It sounds intimidating, but you'll only need to type a few short commands, and this guide gives you each one exactly.
+Claude Code is a version of Claude that runs inside the **Terminal**, a built-in Mac app where you type instructions instead of clicking buttons.
 
 ### A quick orientation to the Terminal
 
