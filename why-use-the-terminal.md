@@ -1,4 +1,4 @@
-# Why the Terminal Matters for Tech Consultants
+# Why Use The Terminal
 
 - Clients' engineering teams work in the Terminal every day.
 - AI tools running in the Terminal can work directly with your files, automating multi-step tasks like reorganizing documents or updating deliverables in one go.
