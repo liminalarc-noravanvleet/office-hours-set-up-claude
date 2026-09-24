@@ -122,7 +122,7 @@ Claude Code is a version of Claude that runs inside the **Terminal**, a built-in
 4. Wait. You'll see text scroll by as it downloads and installs. This usually takes under a minute.
 5. When it's done, you'll see a message saying the installation was successful, and a fresh prompt will appear.
 
-**What that command does, in plain English:** `curl` downloads Anthropic's official installer from claude.ai, and `bash` runs it. It installs Claude Code only for your user account, and it keeps itself updated automatically from then on.
+**What that command does, in plain English:** it downloads and runs Anthropic's official installer from claude.ai. It installs Claude Code only for your user account, and it keeps itself updated automatically from then on.
 
 ### Step 3.3 — Close and reopen the Terminal
 
