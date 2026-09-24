@@ -31,7 +31,7 @@ The invitation email will look like this:
 
 - Open your work email and look for an invitation from Anthropic / Claude. The subject line usually mentions being invited to join your organization on Claude. Check your spam or junk folder if you don't see it.
 - Click the **Accept invitation** (or **Join**) button in the email. Your web browser will open to claude.ai.
-- If you don't have an invitation, contact your team's Claude administrator and ask them to send one to your work email address.
+- If you don't have an invitation, contact Donald Turner and ask him to send one to your work email address.
 
 ### Step 1.2 — Sign in with your work identity
 
@@ -211,7 +211,7 @@ You're done with this section when typing `claude` in the Terminal opens Claude 
 ## Troubleshooting
 
 **I never received an invitation email.**
-Check spam and junk folders, then ask your Claude administrator to resend it to your work email address.
+Check spam and junk folders, then ask Donald Turner to resend it to your work email address.
 
 **I signed in but don't see my organization's name.**
 You probably signed in with a personal email. Sign out (click your name in the bottom-left, then **Log out**), then sign back in using your work email or company SSO.
@@ -229,7 +229,7 @@ Your network may be blocking the download. This is common on company VPNs or gue
 Look in the Terminal for a long web link. Hold **⌘** and click it, or copy and paste it into your browser's address bar.
 
 **Claude Code says my account doesn't have access.**
-Your team seat may not include Claude Code, or you may have authorized a personal account by mistake. Type `/login` inside Claude Code to sign in again and choose your team organization. If it still fails, ask your administrator to confirm your seat includes Claude Code.
+Your team seat may not include Claude Code, or you may have authorized a personal account by mistake. Type `/login` inside Claude Code to sign in again and choose your team organization. If it still fails, ask Donald Turner to confirm your seat includes Claude Code.
 
 **Want a full health check?**
 Run this in the Terminal (outside of Claude Code) and share the output with IT if you need help:
