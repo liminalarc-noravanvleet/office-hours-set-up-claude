@@ -29,17 +29,13 @@ The invitation email will look like this:
 
 ### Step 1.1 — Accept your team invitation
 
-1. Open your work email and look for an invitation from Anthropic / Claude. The subject line usually mentions being invited to join your organization on Claude. Check your spam or junk folder if you don't see it.
-2. Click the **Accept invitation** (or **Join**) button in the email. Your web browser will open to claude.ai.
-3. If you don't have an invitation, contact your team's Claude administrator and ask them to send one to your work email address.
+- Open your work email and look for an invitation from Anthropic / Claude. The subject line usually mentions being invited to join your organization on Claude. Check your spam or junk folder if you don't see it.
+- Click the **Accept invitation** (or **Join**) button in the email. Your web browser will open to claude.ai.
+- If you don't have an invitation, contact your team's Claude administrator and ask them to send one to your work email address.
 
 ### Step 1.2 — Sign in with your work identity
 
-On the sign-in page you'll see a few options. **Use the method your company tells you to use.** In most workplaces that is one of these:
-
-- **Single sign-on (SSO)** — Enter your work email and you'll be sent to your company's normal login page (for example Okta, Microsoft, or Google). Sign in exactly as you do for other work tools.
-- **Continue with Google** — Choose this if your company uses Google Workspace, and pick your *work* Google account, not a personal one.
-- **Email link** — Enter your work email, then open the sign-in email Claude sends you and click the link.
+On the sign-in page, use **single sign-on (SSO)**: enter your work email and you'll be sent to your company's normal login page (for example Okta, Microsoft, or Google). Sign in exactly as you do for other work tools.
 
 > **Tip:** Always use your work email. If you sign in with a personal email, you'll end up in a separate personal account instead of your team's workspace.
 
@@ -50,28 +46,16 @@ On the sign-in page you'll see a few options. **Use the method your company tell
 
 ### Step 1.4 — Turn on multi-factor authentication (MFA)
 
-MFA means that signing in requires something you know (your password) **plus** something you have (your phone). For Claude, your MFA protection comes from the account you sign in *with*. Follow the path below that matches how you signed in during Step 1.2.
+MFA means that signing in requires something you know (your password) **plus** something you have (your phone). For Claude, your MFA protection comes from the account you sign in *with*.
 
-**If you signed in with company SSO:**
 Your company's IT team controls MFA for SSO logins. In most organizations it's already required, and you'll have been asked for a code or a phone approval when you signed in. If you weren't asked for a second step, contact IT and ask them to confirm MFA is turned on for your account.
-
-**If you signed in with Google:**
-
-1. In a new browser tab, go to **myaccount.google.com** and make sure you're signed in to your work Google account.
-2. Click **Security** in the left-hand menu.
-3. Find **2-Step Verification** and click it.
-4. Click **Get started** and follow the prompts. The easiest option is to approve sign-ins with a notification on your phone, or use an authenticator app such as Google Authenticator or Microsoft Authenticator.
-5. When Google offers **backup codes**, save them somewhere safe (a password manager is ideal). These let you get in if you lose your phone.
-
-**If you signed in with an email link:**
-Anyone who can open your email inbox can sign in to Claude, so your email account *is* your security. Make sure MFA is turned on for your work email (ask IT if you're not sure how). Also check **Settings** in Claude (click your name in the bottom-left, then **Settings**) for any additional security or sign-in options your account offers, and turn them on if available.
 
 ### ✅ Section 1 checkpoint
 
 You're done with this section when:
 
 - You can open **claude.ai**, see your organization's name under your profile, and send Claude a message (try typing "Hello!" and pressing Return).
-- Signing in requires a second step through your phone, SSO, or a protected email inbox.
+- Signing in requires a second step through SSO.
 
 ---
 
@@ -95,7 +79,7 @@ The desktop app gives you Claude in its own window, so you don't need to keep a 
 
 1. Press **Command (⌘) + Space** on your keyboard to open Spotlight search, type **Claude**, and press **Return**.
 2. If your Mac asks *"Claude is an app downloaded from the internet. Are you sure you want to open it?"*, click **Open**.
-3. Click **Sign in**. Use the **same method you used in Section 1** (SSO, Google, or email link). Your browser may open briefly to finish signing in, then send you back to the app.
+3. Click **Sign in**. Use **SSO**, the same as in Section 1. Your browser may open briefly to finish signing in, then send you back to the app.
 4. Confirm you're in your team workspace by clicking your name in the bottom-left corner.
 
 > **Tip:** To keep Claude handy, right-click its icon in your Dock while it's open and choose **Options → Keep in Dock**.
@@ -196,7 +180,7 @@ Claude Code works on the files in whichever folder your Terminal is "in." It's a
 2. The first time, Claude Code asks you a few setup questions. Use the **up and down arrow keys** to move between choices and press **Return** to select:
    - **Choose a color theme** — pick whichever looks easiest to read.
    - **Choose how to log in** — select the option for your **Claude account with a subscription** (this covers Team plans). Do **not** choose the API/Console option.
-3. Your web browser will open to a Claude authorization page. Sign in with the **same method as Section 1** if asked, make sure your **team organization** is selected, and click **Authorize**.
+3. Your web browser will open to a Claude authorization page. Sign in with **SSO** if asked, make sure your **team organization** is selected, and click **Authorize**.
 4. When the browser says you're done, switch back to the Terminal window (click it, or press **⌘ + Tab** until it's selected).
 5. Claude Code may ask whether you **trust the files in this folder**. Since it's your own practice folder, choose **Yes**.
 
