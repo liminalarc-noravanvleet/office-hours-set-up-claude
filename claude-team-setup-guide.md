@@ -149,7 +149,7 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
 
 Then run `claude --version` again. If it still doesn't work, jump to **Troubleshooting** at the end of this guide.
 
-### Step 3.5 — Create a practice folder (recommended)
+### Step 3.5 — Create a practice folder
 
 Claude Code works on the files in whichever folder your Terminal is "in." It's a good habit to give it its own folder to start.
 
@@ -219,9 +219,6 @@ Open **System Settings → Privacy & Security**, scroll down, and click **Open A
 
 **`command not found: claude` in the Terminal, even after the fix in Step 3.4.**
 Quit Terminal fully with **⌘ + Q**, reopen it, and try `claude --version` again. If that still fails, run the install command from Step 3.2 once more and read the final lines it prints, since they sometimes include a specific instruction to copy and run.
-
-**The install command shows an error like `403` or `curl: (6)`.**
-Your network may be blocking the download. This is common on company VPNs or guest Wi-Fi. Try a different network, or ask IT to allow access to `claude.ai`.
 
 **The browser didn't open when signing in to Claude Code.**
 Look in the Terminal for a long web link. Hold **⌘** and click it, or copy and paste it into your browser's address bar.
